@@ -23,3 +23,6 @@ let Paginas: number = 1088;
 let Dimensiones: string = "13 x 4.4 x 20.1 cm";
 let Peso: string = "750 g";
 let Disponible: string = "Si";
+
+
+
