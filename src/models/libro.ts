@@ -1,56 +1,20 @@
-export class libro{
-    title: string;
-    Autor: string;
-    Genero: string;
-    Idioma: string;
-    Precio: number;
-    Formato: string;
-    ISBN: string;
-    Descripcion: string;
-    Estado: string;
-    Ubicacion: string;
-    Fecha_publicacion: string;
-    Editorial: string;
-    Paginas: number;
-    Dimensiones: string;
-    Peso: string ;
-    Disponible: string;
-
+export class agregar {
     constructor(
-        title: string,
-        Autor: string,
-        Genero: string,
-        Idioma: string,
-        Precio: number,
-        Formato: string,
-        ISBN: string,
-        Descripcion: string,
-        Estado: string ,
-        Ubicacion: string,
-        Fecha_publicacion: string,
-        Editorial: string,
-        Paginas: number,
-        Dimensiones: string,
-        Peso: string ,
-        Disponible: string,
-    ){
-        this.title= title;
-        this.Autor= Autor;
-        this.Genero=Genero;
-        this.Idioma=Idioma
-        this.Precio=Precio;
-        this.Formato=Formato;
-        this.ISBN=ISBN;
-        this.Descripcion=Descripcion;
-        this.Estado=Estado;
-        this.Ubicacion=Ubicacion;
-        this.Fecha_publicacion=Fecha_publicacion;
-        this.Editorial=Editorial;
-        this.Paginas=Paginas;
-        this.Dimensiones=Dimensiones;
-        this.Peso=Peso;
-        this.Disponible=Disponible  ;
-    }
+        public Titulo: string,
+        public Autor: string,
+        public Genero: string,
+        public Idioma: string,
+        public Precio: string,
+        public Formato: string,
+        public ISBN: string,
+        public  Descripcion: string,
+        public Estado: string,
+        public Ubicacion: string,
+        public Fecha_publicacion: string,
+        public Editorial: string,
+        public Paginas: string,
+        public Dimensiones: string,
+        public Peso: string ,
+        public Disponible: string
+    ){}
 }
-
-
